@@ -1,0 +1,29 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --force-exit",
+    "test:coverage": "jest --collect-coverage --detectOpenHandles --force-exit",
+    "dev": "nodemon . --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
